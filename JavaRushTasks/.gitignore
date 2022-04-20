@@ -24,4 +24,4 @@
 #/Instruction.png
 #/out.log
 #/out.log.*
-.gitignore
+*.gitignore*
