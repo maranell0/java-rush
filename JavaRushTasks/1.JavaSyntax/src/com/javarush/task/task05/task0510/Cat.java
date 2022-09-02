@@ -12,33 +12,33 @@ public class Cat {
     public String color;
     public String address;
     
-    public void initialize (String nm) {
-        this.name = nm;
+    public void initialize (String name) {
+        this.name = name;
         this.age = 3;
         this.weight = 3;
         this.color = "Black";
     }
-    public void initialize (String nm, int w, int a) {
-        this.name = nm;
-        this.age = a;
-        this.weight = w;
+    public void initialize (String name, int age, int weight) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
         this.color = "Black";
     }
-    public void initialize (String nm, int a) {
-        this.name = nm;
-        this.age = a;
+    public void initialize (String name, int age) {
+        this.name = name;
+        this.age = age;
         this.weight = 3;
         this.color = "Black";
     }
-    public void initialize (int w, String c) {
-        this.weight = w;
-        this.color = c;
+    public void initialize (int weight, String color) {
+        this.weight = weight;
+        this.color = color;
         this.age = 3;
     }
-    public void initialize (int w, String c, String a) {
-        this.weight = w;
-        this.color = c;
-        this.address = a;
+    public void initialize (int weight, String color, String address) {
+        this.weight = weight;
+        this.color = color;
+        this.address = address;
         this.age = 3;
     }
     
